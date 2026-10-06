@@ -1,6 +1,6 @@
-# Amazon-Product-Scraper
-AI-assisted web scraping script using Playwright
 # 🛒 Amazon Product Link Scraper
+
+AI-assisted web scraping script using Playwright.
 
 A Python-based web automation and scraping tool built with **Playwright**. This script extracts Amazon product links from search results and exports them directly into a structured CSV file for data research and analysis.
 
@@ -23,3 +23,31 @@ A Python-based web automation and scraping tool built with **Playwright**. This 
 - **Automation Library:** Playwright
 - **Methodology:** AI-Assisted Scripting / Automation Research
 
+---
+
+## 📥 Installation & Setup
+
+1. **Clone this repository:**
+   ```bash
+   git clone [https://github.com/ArnoldElano/Amazon-Product-Scraper.git](https://github.com/ArnoldElano/Amazon-Product-Scraper.git)
+   cd Amazon-Product-Scraper
+
+2. Install Playwright and dependencies:
+  
+$ pip install playwright
+$ playwright install chromium
+
+3. Run the scraper using the default settings:
+$ python scrape_shopee.py
+
+You can pass custom parameters for maximum items or a different output CSV filename:
+$ python scrape_shopee.py --max-items 30 --output product_links.csv
+
+📊 Sample Output
+The scraped product links are exported to amazon_product_links.csv:link :
+https://www.amazon.com/dp/B0HFJXV8L3
+https://www.amazon.com/dp/B09XK94491
+https://www.amazon.com/dp/B0GYRSHB2F
+
+📄 License
+This project is open-source and available for educational and portfolio presentation purposes.
