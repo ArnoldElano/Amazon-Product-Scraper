@@ -45,9 +45,9 @@ $ python scrape_shopee.py --max-items 30 --output product_links.csv
 
 📊 Sample Output
 The scraped product links are exported to amazon_product_links.csv:link :
-https://www.amazon.com/dp/B0HFJXV8L3
-https://www.amazon.com/dp/B09XK94491
-https://www.amazon.com/dp/B0GYRSHB2F
+1. https://www.amazon.com/dp/B0HFJXV8L3
+2. https://www.amazon.com/dp/B09XK94491
+3. https://www.amazon.com/dp/B0GYRSHB2F
 
 📄 License
 This project is open-source and available for educational and portfolio presentation purposes.
