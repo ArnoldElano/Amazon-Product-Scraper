@@ -39,7 +39,7 @@ A Python-based web automation and scraping tool built with **Playwright**. This 
 
 4. Run the scraper using the default settings:
 
-   python scrape_shopee.py
+   python scrape_amazon.py
 
 You can pass custom parameters for maximum items or a different output CSV filename:
 $ python scrape_shopee.py --max-items 30 --output product_links.csv
