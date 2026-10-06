@@ -33,12 +33,13 @@ A Python-based web automation and scraping tool built with **Playwright**. This 
    cd Amazon-Product-Scraper
 
 2. Install Playwright and dependencies:
-  
-$ pip install playwright
-$ playwright install chromium
 
-3. Run the scraper using the default settings:
-$ python scrape_shopee.py
+   pip install playwright
+   playwright install chromium
+
+4. Run the scraper using the default settings:
+
+   python scrape_shopee.py
 
 You can pass custom parameters for maximum items or a different output CSV filename:
 $ python scrape_shopee.py --max-items 30 --output product_links.csv
