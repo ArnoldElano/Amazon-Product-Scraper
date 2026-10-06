@@ -5,8 +5,8 @@ Install with:
     python3 -m playwright install chromium
 
 Run with:
-    python3 scrape_shopee.py
-    python3 scrape_shopee.py --max-items 30 --output product_links.csv
+    python3 scrape_amazon.py
+    python3 scrape_amazon.py --max-items 30 --output product_links.csv
 """
 
 import argparse
